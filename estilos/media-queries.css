@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* MEDIA QUERIES:
+    762 À 992
+*/
+
+@media screen and (min-width: 762px){
+    div#content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+    }
+    #logo{
+        margin-left: 20px;
+    }
+    nav{
+        margin-right: 30px;
+        gap: 100px;
+    }
+}
