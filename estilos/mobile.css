@@ -127,3 +127,44 @@ a.agendar:hover{
     color: pink;
     transition-duration: .25s;
 }
+
+section#depoimentos{
+    margin: 40px 0px;
+    background-color: pink;
+    padding: 20px;
+}
+section#depoimentos h1{
+    text-align: center;
+    font-size: 2.6em;
+}
+aside#dep{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    background-color: brown;
+    border-radius: 5px;
+}
+aside#dep::-webkit-scrollbar-track
+{
+	border-radius: 20px;
+}
+
+aside#dep::-webkit-scrollbar
+{
+	width: 8px;
+    height: 8px;
+}
+
+aside#dep::-webkit-scrollbar-thumb
+{
+	border-radius: 20px;
+	background-color: #cfaa5c;
+}
+div.prints{
+    margin: 10px 70px;
+    height: 250px;
+    min-width: 200px;
+    background-color: rgb(164, 103, 103);
+}
+
