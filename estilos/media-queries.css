@@ -19,4 +19,17 @@
         margin-right: 30px;
         gap: 100px;
     }
+    section.banner{
+        flex-direction: row;
+        max-width: 1200px;
+        height: 450px;
+    }
+    div#sobre{
+        width: 40%;
+    }
+    div#imagem{
+        background-position: center top;
+        width: 60%;
+        max-height: 100%;
+    }
 }

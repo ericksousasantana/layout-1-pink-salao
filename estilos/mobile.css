@@ -2,11 +2,17 @@
 
 /* MOBILE-FIRST */
 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif Arial, Helvetica, sans-serif;
+    font-family: "Old Standard TT", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    margin-top: -20px;
 }
 
 header{
@@ -34,7 +40,8 @@ nav{
 }
 #menu li{
     color: brown;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: 500;
 }
 #menu a.nav{
     text-decoration: none;
@@ -47,4 +54,35 @@ nav{
     width: 45px;
     border-radius: 35%;
     margin: -14px 0px -5px 10px;
+}
+
+section.banner{
+    height: 600px;
+    width: 100%;
+    background-color: pink;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+div#sobre{
+    padding: 20px;
+}
+div#sobre h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+div#sobre p{
+    max-width: 400px;
+    text-align: justify;
+    margin: 10px auto;
+    font-size: 1.05em;
+}
+div#imagem{
+    background: brown url("../imagens/moca-sorrindo.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100%;
+}
+
+section#servicos{
+    margin: 50px;
 }
