@@ -32,4 +32,8 @@
         width: 60%;
         max-height: 100%;
     }
+    section#servicos{
+        flex-flow: row nowrap;
+        gap: 2px;
+    }
 }
