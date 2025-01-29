@@ -83,6 +83,43 @@ div#imagem{
     height: 100%;
 }
 
+.titulo{
+    margin: 50px 0px 10px 15%;
+    font-size: 2.6em;
+    text-decoration: #cfaa5c underline;
+}
+
 section#servicos{
-    margin: 50px;
+    margin: 50px auto;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+div.servico{
+    width: 360px;
+    margin: 10px;
+}
+div.servico img{
+    width: 100%;
+}
+div.servico .desc{
+    text-align: justify;
+    margin: 20px;
+}
+a.agendar{
+    color: brown;
+    text-decoration: none;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 40px;
+    margin: 37%;
+    font-weight: bold;
+}
+a.agendar:hover{
+    background-color: brown;
+    color: pink;
+    transition-duration: .25s;
 }
