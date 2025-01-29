@@ -143,6 +143,7 @@ aside#dep{
     gap: 10px;
     overflow-x: auto;
     background-color: brown;
+    border: 5px solid brown;
     border-radius: 5px;
 }
 aside#dep::-webkit-scrollbar-track
@@ -153,13 +154,13 @@ aside#dep::-webkit-scrollbar-track
 aside#dep::-webkit-scrollbar
 {
 	width: 8px;
-    height: 8px;
+    height: 4px;
 }
 
 aside#dep::-webkit-scrollbar-thumb
 {
 	border-radius: 20px;
-	background-color: #cfaa5c;
+	background-color: pink;
 }
 div.prints{
     margin: 10px 70px;
