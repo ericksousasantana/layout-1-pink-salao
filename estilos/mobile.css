@@ -14,13 +14,16 @@
 hr{
     margin-top: -20px;
 }
+h3{
+    font-size: 1.8em;
+}
 
 header{
     background-color: pink;
     padding: 4px;
 }
 
-#logo{
+.logo{
     width: 100px;
     height: 100px;
     background-color: rgb(255, 255, 255);
@@ -76,6 +79,7 @@ div#sobre p{
     text-align: justify;
     margin: 10px auto;
     font-size: 1.05em;
+    font-weight: 520;
 }
 div#imagem{
     background: brown url("../imagens/moca-sorrindo.jpg") no-repeat center top;
@@ -129,7 +133,7 @@ a.agendar:hover{
 }
 
 section#depoimentos{
-    margin: 40px 0px;
+    margin: 55px 0px;
     background-color: pink;
     padding: 20px;
 }
@@ -163,9 +167,67 @@ aside#dep::-webkit-scrollbar-thumb
 	background-color: pink;
 }
 div.prints{
-    margin: 10px 70px;
+    margin: 10px 60px;
     height: 250px;
     min-width: 200px;
     background-color: rgb(164, 103, 103);
 }
 
+section#loc{
+    max-width: 97%;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: brown;
+    color: white;
+    line-height: 2.2em;
+    font-size: 1.4em;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+div#area{
+    margin: 20px;
+}
+div#iframe{
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+div#iframe iframe{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+}
+#gg{
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+#gg:hover{
+    border: 2px solid #cfaa5c;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: brown;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer .logo{
+    margin: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+footer a:hover{
+    text-decoration: underline;
+}
