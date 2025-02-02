@@ -18,6 +18,7 @@
     nav{
         margin-right: 30px;
         gap: 100px;
+        font-size: 1.3em;
     }
     section.banner{
         flex-direction: row;
