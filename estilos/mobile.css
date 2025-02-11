@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,19 +12,20 @@
     scroll-behavior: smooth;
 }
 
-hr{
+hr {
     margin-top: -20px;
 }
-h3{
+
+h3 {
     font-size: 1.8em;
 }
 
-header{
+header {
     background-color: pink;
     padding: 4px;
 }
 
-.logo{
+.logo {
     width: 100px;
     height: 100px;
     background-color: rgb(255, 255, 255);
@@ -32,31 +33,36 @@ header{
     margin: 15px auto;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
 }
-#menu{
+
+#menu {
     max-width: 100%;
 }
-#menu ul{
+
+#menu ul {
     color: brown;
 }
-#menu li{
+
+#menu li {
     color: brown;
     font-size: 1em;
     font-weight: 500;
 }
-#menu a.nav{
+
+#menu a.nav {
     text-decoration: none;
 }
-#social img{
+
+#social img {
     width: 45px;
     border-radius: 35%;
     margin: -14px 0px -5px 10px;
 }
 
-section.banner{
+section.banner {
     height: 600px;
     width: 100%;
     background-color: pink;
@@ -64,58 +70,70 @@ section.banner{
     display: flex;
     flex-direction: column-reverse;
 }
-div#sobre{
+
+div#sobre {
     padding: 20px;
 }
-div#sobre h1{
+
+div#sobre h1 {
     text-align: center;
     font-size: 2.5em;
 }
-div#sobre p{
+
+div#sobre p {
     max-width: 400px;
     text-align: justify;
     margin: 10px auto;
     font-size: 1.05em;
     font-weight: 520;
 }
-div#imagem{
+
+div#imagem {
     background: brown url("../imagens/moca-sorrindo.jpg") no-repeat center top;
     background-size: cover;
     height: 100%;
 }
 
-.titulo{
+.titulo {
     margin: 50px 0px 10px 15%;
     font-size: 2.6em;
     text-decoration: #cfaa5c underline;
 }
 
-section#servicos{
+section#servicos {
     margin: 50px auto;
     max-width: 1200px;
-    
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 10px;
 }
-div.servico{
+
+div.servico {
     max-width: 400px;
     min-width: 230px;
     margin: 10px;
 }
-div.servico img{
+
+div.servico img {
     max-width: 100%;
 }
-div.servico .desc{
+
+div.servico .desc {
     text-align: center;
     margin: 20px;
 }
-div.align{
+
+div.align {
     display: flex;
     justify-content: center;
 }
-a.agendar{
+
+a.agendar {
     color: brown;
     text-decoration: none;
     background-color: pink;
@@ -123,22 +141,25 @@ a.agendar{
     border-radius: 40px;
     font-weight: bold;
 }
-a.agendar:hover{
+
+a.agendar:hover {
     background-color: brown;
     color: pink;
     transition-duration: .25s;
 }
 
-section#depoimentos{
+section#depoimentos {
     margin: 55px 0px;
     background-color: pink;
     padding: 20px;
 }
-section#depoimentos h1{
+
+section#depoimentos h1 {
     text-align: center;
     font-size: 2.6em;
 }
-aside#dep{
+
+aside#dep {
     margin-top: 10px;
     display: flex;
     gap: 10px;
@@ -147,30 +168,29 @@ aside#dep{
     border: 5px solid brown;
     border-radius: 5px;
 }
-aside#dep::-webkit-scrollbar-track
-{
-	border-radius: 20px;
+
+aside#dep::-webkit-scrollbar-track {
+    border-radius: 20px;
 }
 
-aside#dep::-webkit-scrollbar
-{
-	width: 8px;
+aside#dep::-webkit-scrollbar {
+    width: 8px;
     height: 4px;
 }
 
-aside#dep::-webkit-scrollbar-thumb
-{
-	border-radius: 20px;
-	background-color: pink;
+aside#dep::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: pink;
 }
-div.prints{
+
+div.prints {
     margin: 10px 60px;
     height: 250px;
     min-width: 200px;
     background-color: rgb(164, 103, 103);
 }
 
-section#loc{
+section#loc {
     max-width: 97%;
     margin: 10px auto;
     overflow: hidden;
@@ -183,10 +203,12 @@ section#loc{
     display: flex;
     flex-flow: row wrap;
 }
-div#area{
+
+div#area {
     margin: 20px;
 }
-div#iframe{
+
+div#iframe {
     background-color: pink;
     width: 100%;
     display: flex;
@@ -194,21 +216,24 @@ div#iframe{
     align-items: center;
     padding: 10px;
 }
-div#iframe iframe{
+
+div#iframe iframe {
     width: 100%;
     height: 450px;
     border-radius: 20px;
 }
-#gg{
+
+#gg {
     width: 200px;
     text-align: center;
     margin-top: 10px;
 }
-#gg:hover{
+
+#gg:hover {
     border: 2px solid #cfaa5c;
 }
 
-footer{
+footer {
     margin-top: 40px;
     background-color: brown;
     display: flex;
@@ -218,14 +243,29 @@ footer{
     padding: 10px;
     gap: 5px;
 }
-footer .logo{
+
+footer .logo {
     margin: 8px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
 }
