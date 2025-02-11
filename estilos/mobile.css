@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Old Standard TT", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    scroll-behavior: smooth;
 }
 
 hr {
@@ -35,25 +34,27 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-
-#menu {
+#menu{
     max-width: 100%;
 }
-
-#menu ul {
+#menu ul{
     color: brown;
 }
 
 #menu li {
     color: brown;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
 #menu a.nav {
     text-decoration: none;
+    width: 94px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 8px;
 }
 
 #social img {
@@ -241,10 +242,8 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-    gap: 5px;
 }
-
-footer .logo {
+footer .logo{
     margin: 8px;
 }
 
